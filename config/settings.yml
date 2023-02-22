@@ -1,0 +1,25 @@
+settings:
+  database:
+    driver: mysql
+    source: root:123456@tcp(127.0.0.1:3306)/aliyun-eip-lb?charset=utf8&parseTime=True&loc=Local&timeout=1000ms
+  aliyun:
+    -
+      AK: "Your access key"
+      SK: "Your secret key"
+      Region:
+        - "cn-beijing"
+        - "cn-shenzhen"
+        - "cn-zhangjiakou"
+        - "cn-hongkong"
+      #账号名称
+      Account: "Your account"
+    -
+      AK: "Your access key"
+      SK: "Your secret key"
+      Region:
+        - "cn-beijing"
+        - "cn-shenzhen"
+        - "cn-zhangjiakou"
+        - "cn-hongkong"
+      Account: "Your account"
+    
